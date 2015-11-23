@@ -287,3 +287,32 @@ Caused by: java.net.SocketTimeoutException: Accept timed out
 	at java.net.ServerSocket.accept(ServerSocket.java:513)
 	at org.infinitest.testrunner.process.TcpSocketProcessCommunicator.openSocket(TcpSocketProcessCommunicator.java:70)
 	... 19 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2015-11-23 21:02:21.750
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+	at java.lang.String.charAt(String.java:646)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.writeAllDocumentNames(DiskIndex.java:1057)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:542)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:197)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndex(IndexManager.java:905)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:947)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:644)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:388)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-23 21:02:22.011
+!MESSAGE 02_KataPokerTests Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/02_KataPokerTests/bin/PokerTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-23 21:02:22.012
+!MESSAGE 02_KataPokerTests Running tests: [PokerTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-23 21:02:22.013
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/02_KataPokerTests
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, APP_ICON_62399=../Resources/Eclipse.icns, SHELL=/bin/bash, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/02_KataPokerTests/bin:/Users/user/Desktop/BTS/SoftwareCraftsmanship/01_KataPoker/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, SSH_AUTH_SOCK=/tmp/launch-QH7Bkr/Listeners, DISPLAY=/tmp/launch-iEsv5D/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_62399=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, Apple_PubSub_Socket_Render=/tmp/launch-eAEewH/Render, __CHECKFIX1436934=1, LOGNAME=user, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 50616]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-23 21:02:23.260
+!MESSAGE Update complete. Status FAILING

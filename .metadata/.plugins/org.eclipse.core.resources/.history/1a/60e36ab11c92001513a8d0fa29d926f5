@@ -1,0 +1,14 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class PokerTest {
+
+	@Test
+	public void test() {
+
+		Poker poker=new Poker("");
+		assertEquals("expected", poker.category());
+	}
+
+}

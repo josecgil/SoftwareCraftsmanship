@@ -1,2 +1,1 @@
 INDEX VERSION 1.127+/Users/user/Desktop/BTS/SoftwareCraftsmanship/.metadata/.plugins/org.eclipse.jdt.core
-217330122.index
