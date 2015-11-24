@@ -1,0 +1,13 @@
+
+public class Hand {
+
+	private String hand;
+	public Hand(String hand) {
+		this.hand=hand;
+	}
+
+	public String type() {
+		return "Four of a kid";
+	}
+
+}

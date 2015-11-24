@@ -1,0 +1,8 @@
+
+public class Poker {
+
+	public String typeOfHand(String string) {
+		return "Four of a kind";
+	}
+
+}

@@ -1,11 +1,11 @@
-#Mon Nov 23 20:49:41 CET 2015
+#Tue Nov 24 09:11:06 CET 2015
 vl=How many times the 'Finish' button pressed during the day
 l=Wizard class name
 ct=jbt
-d=1448308181912
+d=1448352666648
 c=0
 cmp=usage
 a=finishWizard
 cl=org.eclipse.egit.ui.internal.push.PushWizard
 v=2.1.0
-s=1
+s=0

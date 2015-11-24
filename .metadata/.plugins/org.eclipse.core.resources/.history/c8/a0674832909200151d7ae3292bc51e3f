@@ -1,0 +1,14 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class PokerTest {
+
+	@Test
+	public void IsFourOfAKindWithOnlyNumbers() {
+		Hand hand=new Hand("4♣ 4♦ 4♠ 4♥ 10♥");
+		String result=hand.hand();
+		assertEquals("Four of a kind", result);
+	}
+
+}

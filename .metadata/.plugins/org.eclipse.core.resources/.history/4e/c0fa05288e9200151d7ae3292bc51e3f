@@ -1,0 +1,14 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class PokerTest {
+
+	@Test
+	public void test() {
+		Poker poker=new Poker();
+		String result=poker.hand("4♣ 5♦ 6♦ 7♠ 10♥");
+		assertEquals("High card", result);
+	}
+
+}
