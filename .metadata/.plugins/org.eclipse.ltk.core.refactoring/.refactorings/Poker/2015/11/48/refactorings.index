@@ -2,3 +2,8 @@
 1448357793204	Rename method 'typeOfHand'
 1448358245598	Rename type 'Poker'
 1448358271807	Rename method 'hand'
+1448364984139	Delete element
+1448365026678	Rename local variable 'card'
+1448365190076	Rename local variable 'cardString'
+1448365217085	Rename field 'cardString'
+1448365253177	Rename local variable 'cardString'

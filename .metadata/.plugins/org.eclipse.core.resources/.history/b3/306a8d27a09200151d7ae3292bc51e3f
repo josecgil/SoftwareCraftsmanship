@@ -1,0 +1,14 @@
+
+public class Card {
+
+	private String cardString;
+
+	public Card(String cardValue) {
+		this.cardString=cardValue;
+	}
+
+	public String rank() {
+		return cardString.substring(0,cardString.length()-1)
+	}
+
+}

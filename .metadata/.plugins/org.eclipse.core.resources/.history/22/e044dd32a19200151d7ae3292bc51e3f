@@ -1,19 +1,17 @@
-import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Hand {
 
-	private ArrayList<Card> cards=new ArrayList();
+	private String hand;
 	public Hand(String hand) {
-		String[] cardStrings=hand.split(" ");
-		for(String cardString: cardStrings) {
-			cards.add(new Card(cardString));
-		}
+		this.hand=hand;
 	}
 
 	public String type() {
 		HashMap<String, Integer> cardCounter=new HashMap<String, Integer>();
-		for(Card card: cards) {
+		String[] cards=this.hand.split(" ");
+		for(String cardValue: cards) {
+			Card card=new Card(cardValue);
 			String rank=card.rank();
 			if (!cardCounter.containsKey(rank)) {
 				cardCounter.put(rank,1);

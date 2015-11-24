@@ -9,12 +9,6 @@ public class PokerTest {
 		Hand hand=new Hand("1♣ 1♦ 1♠ 1♥ 10♥");
 		assertEquals("Four of a kind", hand.type());
 	}
-
-	@Test
-	public void IsFourOfAKindWithTwos() {
-		Hand hand=new Hand("2♣ 2♦ 2♠ 2♥ 10♥");
-		assertEquals("Four of a kind", hand.type());
-	}
 	
 	@Test
 	public void IsThreeOfAKindWithFives() {
