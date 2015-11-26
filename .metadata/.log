@@ -1050,3 +1050,358 @@ Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/ja
 
 !ENTRY org.infinitest.eclipse 1 0 2015-11-24 12:47:55.291
 !MESSAGE Update complete. Status PASSING
+!SESSION 2015-11-26 08:59:23.162 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/user/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/user/.eclipse_keyring -showlocation
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:00:44.685
+!MESSAGE Beans loaded: [org.springframework.context.annotation.internalConfigurationAnnotationProcessor, org.springframework.context.annotation.internalAutowiredAnnotationProcessor, org.springframework.context.annotation.internalRequiredAnnotationProcessor, org.springframework.context.annotation.internalCommonAnnotationProcessor, infinitestConfig, org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor, resultCollectorBean, coreLifecycleObserver, classFileChangeProcessor, cleanEventProcessor, coreUpdateNotifier, saveDetector, failureMediator, infinitestActivationController, markerClearingRunnable, markerClearingObserver, markerPlacer, problemMarkerRegistry, resourceLookupAdapter, slowMarkerRegistry, preferenceChangeHandler, slowTestObserver, swtEventQueue, testResultAggregator, visualStatusPresenter, coreFactory, eclipseWorkspace, infinitestCoreRegistry, javaProjectSet, workspaceResourceFinder, workspace, sourceContainer]
+
+!ENTRY org.eclipse.ui 2 2 2015-11-26 09:00:51.328
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.runtime.ui, page: org.jboss.tools.runtime.preferences.RuntimePreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2015-11-26 09:00:51.329
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.usage, page: org.jboss.tools.usage.analytics.preferences.UsageAnalyticsPreferencePage)
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:11:27.024
+!MESSAGE Filter file /Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/infinitest.filters does not exist.
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:11:27.491
+!MESSAGE Reloading core Poker
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:11:27.499
+!MESSAGE Added core Poker with classpath /Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest.jar
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:11:27.505
+!MESSAGE Poker Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Card.class, /Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Hand.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:11:27.714
+!MESSAGE Filter file /Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests/infinitest.filters does not exist.
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:11:27.715
+!MESSAGE Reloading core PokerTests
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:11:27.715
+!MESSAGE Added core PokerTests with classpath /Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests/bin:/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest.jar
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:11:27.716
+!MESSAGE PokerTests Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Card.class, /Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests/bin/PokerTest.class, /Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Hand.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:11:27.723
+!MESSAGE PokerTests Running tests: [PokerTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:11:27.727
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, APP_ICON_4416=../Resources/Eclipse.icns, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_4416=1, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests/bin:/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, SSH_AUTH_SOCK=/tmp/launch-1Aq9XF/Listeners, DISPLAY=/tmp/launch-P79F7B/org.macosforge.xquartz:0, __CF_USER_TEXT_ENCODING=0x1F5:0:8, Apple_PubSub_Socket_Render=/tmp/launch-wFIkM4/Render, __CHECKFIX1436934=1, LOGNAME=user, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 54099]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:11:28.665
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:11:34.389
+!MESSAGE Poker Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Hand.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:11:34.401
+!MESSAGE PokerTests Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Hand.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:11:34.412
+!MESSAGE PokerTests Running tests: [PokerTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:11:34.414
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, APP_ICON_4416=../Resources/Eclipse.icns, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_4416=1, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests/bin:/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, SSH_AUTH_SOCK=/tmp/launch-1Aq9XF/Listeners, DISPLAY=/tmp/launch-P79F7B/org.macosforge.xquartz:0, __CF_USER_TEXT_ENCODING=0x1F5:0:8, Apple_PubSub_Socket_Render=/tmp/launch-wFIkM4/Render, __CHECKFIX1436934=1, LOGNAME=user, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 54101]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:11:34.991
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:11:39.151
+!MESSAGE Poker Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Hand.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:11:39.157
+!MESSAGE PokerTests Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Hand.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:11:39.158
+!MESSAGE PokerTests Running tests: [PokerTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:11:39.159
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, APP_ICON_4416=../Resources/Eclipse.icns, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_4416=1, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests/bin:/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, SSH_AUTH_SOCK=/tmp/launch-1Aq9XF/Listeners, DISPLAY=/tmp/launch-P79F7B/org.macosforge.xquartz:0, __CF_USER_TEXT_ENCODING=0x1F5:0:8, Apple_PubSub_Socket_Render=/tmp/launch-wFIkM4/Render, __CHECKFIX1436934=1, LOGNAME=user, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 54103]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:11:39.735
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:11:45.093
+!MESSAGE Poker Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Card.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:11:45.112
+!MESSAGE PokerTests Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Card.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:11:45.113
+!MESSAGE PokerTests Running tests: [PokerTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:11:45.113
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, APP_ICON_4416=../Resources/Eclipse.icns, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_4416=1, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests/bin:/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, SSH_AUTH_SOCK=/tmp/launch-1Aq9XF/Listeners, DISPLAY=/tmp/launch-P79F7B/org.macosforge.xquartz:0, __CF_USER_TEXT_ENCODING=0x1F5:0:8, Apple_PubSub_Socket_Render=/tmp/launch-wFIkM4/Render, __CHECKFIX1436934=1, LOGNAME=user, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 54105]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:11:45.672
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:12:00.395
+!MESSAGE Poker Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Card.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:12:00.434
+!MESSAGE PokerTests Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Card.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:12:00.435
+!MESSAGE PokerTests Running tests: [PokerTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:12:00.436
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, APP_ICON_4416=../Resources/Eclipse.icns, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_4416=1, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests/bin:/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, SSH_AUTH_SOCK=/tmp/launch-1Aq9XF/Listeners, DISPLAY=/tmp/launch-P79F7B/org.macosforge.xquartz:0, __CF_USER_TEXT_ENCODING=0x1F5:0:8, Apple_PubSub_Socket_Render=/tmp/launch-wFIkM4/Render, __CHECKFIX1436934=1, LOGNAME=user, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 54107]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:12:01.132
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:19:16.827
+!MESSAGE PokerTests Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests/bin/PokerTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:19:16.844
+!MESSAGE PokerTests Running tests: [PokerTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:19:16.845
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, APP_ICON_4416=../Resources/Eclipse.icns, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_4416=1, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests/bin:/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, SSH_AUTH_SOCK=/tmp/launch-1Aq9XF/Listeners, DISPLAY=/tmp/launch-P79F7B/org.macosforge.xquartz:0, __CF_USER_TEXT_ENCODING=0x1F5:0:8, Apple_PubSub_Socket_Render=/tmp/launch-wFIkM4/Render, __CHECKFIX1436934=1, LOGNAME=user, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 54124]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:19:17.427
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:32:26.661
+!MESSAGE PokerTests Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests/bin/PokerTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:32:26.679
+!MESSAGE PokerTests Running tests: [PokerTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:32:26.680
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, APP_ICON_4416=../Resources/Eclipse.icns, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_4416=1, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests/bin:/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, SSH_AUTH_SOCK=/tmp/launch-1Aq9XF/Listeners, DISPLAY=/tmp/launch-P79F7B/org.macosforge.xquartz:0, __CF_USER_TEXT_ENCODING=0x1F5:0:8, Apple_PubSub_Socket_Render=/tmp/launch-wFIkM4/Render, __CHECKFIX1436934=1, LOGNAME=user, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 54160]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:32:27.632
+!MESSAGE Update complete. Status FAILING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:38:03.182
+!MESSAGE Poker Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Hand.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:38:03.187
+!MESSAGE PokerTests Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Hand.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:38:03.188
+!MESSAGE PokerTests Running tests: [PokerTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:38:03.189
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, APP_ICON_4416=../Resources/Eclipse.icns, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_4416=1, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests/bin:/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, SSH_AUTH_SOCK=/tmp/launch-1Aq9XF/Listeners, DISPLAY=/tmp/launch-P79F7B/org.macosforge.xquartz:0, __CF_USER_TEXT_ENCODING=0x1F5:0:8, Apple_PubSub_Socket_Render=/tmp/launch-wFIkM4/Render, __CHECKFIX1436934=1, LOGNAME=user, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 54166]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:38:03.824
+!MESSAGE Update complete. Status FAILING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:39:12.526
+!MESSAGE Poker Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Hand.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:39:12.530
+!MESSAGE PokerTests Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Hand.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:39:12.531
+!MESSAGE PokerTests Running tests: [PokerTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:39:12.532
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, APP_ICON_4416=../Resources/Eclipse.icns, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_4416=1, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests/bin:/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, SSH_AUTH_SOCK=/tmp/launch-1Aq9XF/Listeners, DISPLAY=/tmp/launch-P79F7B/org.macosforge.xquartz:0, __CF_USER_TEXT_ENCODING=0x1F5:0:8, Apple_PubSub_Socket_Render=/tmp/launch-wFIkM4/Render, __CHECKFIX1436934=1, LOGNAME=user, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 54170]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:39:13.134
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:39:21.319
+!MESSAGE Poker Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Hand.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:39:21.323
+!MESSAGE PokerTests Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Hand.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:39:21.323
+!MESSAGE PokerTests Running tests: [PokerTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:39:21.324
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, APP_ICON_4416=../Resources/Eclipse.icns, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_4416=1, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests/bin:/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, SSH_AUTH_SOCK=/tmp/launch-1Aq9XF/Listeners, DISPLAY=/tmp/launch-P79F7B/org.macosforge.xquartz:0, __CF_USER_TEXT_ENCODING=0x1F5:0:8, Apple_PubSub_Socket_Render=/tmp/launch-wFIkM4/Render, __CHECKFIX1436934=1, LOGNAME=user, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 54172]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:39:22.064
+!MESSAGE Update complete. Status FAILING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:40:43.011
+!MESSAGE Poker Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Hand.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:40:43.015
+!MESSAGE PokerTests Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Hand.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:40:43.016
+!MESSAGE PokerTests Running tests: [PokerTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:40:43.017
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, APP_ICON_4416=../Resources/Eclipse.icns, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_4416=1, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests/bin:/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, SSH_AUTH_SOCK=/tmp/launch-1Aq9XF/Listeners, DISPLAY=/tmp/launch-P79F7B/org.macosforge.xquartz:0, __CF_USER_TEXT_ENCODING=0x1F5:0:8, Apple_PubSub_Socket_Render=/tmp/launch-wFIkM4/Render, __CHECKFIX1436934=1, LOGNAME=user, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 54177]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 09:40:43.685
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 10:10:37.080
+!MESSAGE Poker Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Hand.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 10:10:37.133
+!MESSAGE PokerTests Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Hand.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 10:10:37.134
+!MESSAGE PokerTests Running tests: [PokerTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 10:10:37.143
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, APP_ICON_4416=../Resources/Eclipse.icns, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_4416=1, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests/bin:/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, SSH_AUTH_SOCK=/tmp/launch-1Aq9XF/Listeners, DISPLAY=/tmp/launch-P79F7B/org.macosforge.xquartz:0, __CF_USER_TEXT_ENCODING=0x1F5:0:8, Apple_PubSub_Socket_Render=/tmp/launch-wFIkM4/Render, __CHECKFIX1436934=1, LOGNAME=user, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 54307]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 10:10:38.942
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 10:26:52.096
+!MESSAGE Poker Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/ComboCounter.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 10:26:52.110
+!MESSAGE PokerTests Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/ComboCounter.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 10:37:24.438
+!MESSAGE Poker Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/ComboCounter.class, /Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Hand.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 10:37:24.454
+!MESSAGE PokerTests Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/ComboCounter.class, /Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Hand.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 10:37:24.455
+!MESSAGE PokerTests Running tests: [PokerTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 10:37:24.464
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, APP_ICON_4416=../Resources/Eclipse.icns, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_4416=1, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests/bin:/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, SSH_AUTH_SOCK=/tmp/launch-1Aq9XF/Listeners, DISPLAY=/tmp/launch-P79F7B/org.macosforge.xquartz:0, __CF_USER_TEXT_ENCODING=0x1F5:0:8, Apple_PubSub_Socket_Render=/tmp/launch-wFIkM4/Render, __CHECKFIX1436934=1, LOGNAME=user, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 54355]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 10:37:25.569
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 10:46:42.209
+!MESSAGE PokerTests Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests/bin/PokerTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 10:46:42.226
+!MESSAGE PokerTests Running tests: [PokerTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 10:46:42.227
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, APP_ICON_4416=../Resources/Eclipse.icns, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_4416=1, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests/bin:/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, SSH_AUTH_SOCK=/tmp/launch-1Aq9XF/Listeners, DISPLAY=/tmp/launch-P79F7B/org.macosforge.xquartz:0, __CF_USER_TEXT_ENCODING=0x1F5:0:8, Apple_PubSub_Socket_Render=/tmp/launch-wFIkM4/Render, __CHECKFIX1436934=1, LOGNAME=user, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 54376]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 10:46:42.968
+!MESSAGE Update complete. Status FAILING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 10:55:15.924
+!MESSAGE Poker Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/SuitCounter.class, /Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Hand.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 10:55:15.947
+!MESSAGE PokerTests Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/SuitCounter.class, /Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Hand.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 10:55:15.964
+!MESSAGE PokerTests Running tests: [PokerTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 10:55:15.977
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, APP_ICON_4416=../Resources/Eclipse.icns, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_4416=1, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests/bin:/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, SSH_AUTH_SOCK=/tmp/launch-1Aq9XF/Listeners, DISPLAY=/tmp/launch-P79F7B/org.macosforge.xquartz:0, __CF_USER_TEXT_ENCODING=0x1F5:0:8, Apple_PubSub_Socket_Render=/tmp/launch-wFIkM4/Render, __CHECKFIX1436934=1, LOGNAME=user, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 54419]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 10:55:17.627
+!MESSAGE Update complete. Status FAILING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 10:57:05.733
+!MESSAGE Poker Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Card.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 10:57:05.746
+!MESSAGE PokerTests Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Card.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 10:57:05.746
+!MESSAGE PokerTests Running tests: [PokerTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 10:57:05.747
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, APP_ICON_4416=../Resources/Eclipse.icns, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_4416=1, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests/bin:/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, SSH_AUTH_SOCK=/tmp/launch-1Aq9XF/Listeners, DISPLAY=/tmp/launch-P79F7B/org.macosforge.xquartz:0, __CF_USER_TEXT_ENCODING=0x1F5:0:8, Apple_PubSub_Socket_Render=/tmp/launch-wFIkM4/Render, __CHECKFIX1436934=1, LOGNAME=user, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 54422]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 10:57:06.401
+!MESSAGE Update complete. Status FAILING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 11:00:55.697
+!MESSAGE Poker Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Card.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 11:00:55.726
+!MESSAGE PokerTests Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/Card.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 11:00:55.726
+!MESSAGE PokerTests Running tests: [PokerTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 11:00:55.733
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, APP_ICON_4416=../Resources/Eclipse.icns, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_4416=1, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests/bin:/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, SSH_AUTH_SOCK=/tmp/launch-1Aq9XF/Listeners, DISPLAY=/tmp/launch-P79F7B/org.macosforge.xquartz:0, __CF_USER_TEXT_ENCODING=0x1F5:0:8, Apple_PubSub_Socket_Render=/tmp/launch-wFIkM4/Render, __CHECKFIX1436934=1, LOGNAME=user, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 54430]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 11:00:56.398
+!MESSAGE Update complete. Status FAILING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 11:02:06.136
+!MESSAGE Poker Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/SuitCounter.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 11:02:06.147
+!MESSAGE PokerTests Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin/SuitCounter.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 11:02:06.148
+!MESSAGE PokerTests Running tests: [PokerTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 11:02:06.149
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, APP_ICON_4416=../Resources/Eclipse.icns, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_4416=1, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/PokerTests/bin:/Users/user/Desktop/BTS/SoftwareCraftsmanship/Poker/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, SSH_AUTH_SOCK=/tmp/launch-1Aq9XF/Listeners, DISPLAY=/tmp/launch-P79F7B/org.macosforge.xquartz:0, __CF_USER_TEXT_ENCODING=0x1F5:0:8, Apple_PubSub_Socket_Render=/tmp/launch-wFIkM4/Render, __CHECKFIX1436934=1, LOGNAME=user, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 54432]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-11-26 11:02:06.697
+!MESSAGE Update complete. Status PASSING

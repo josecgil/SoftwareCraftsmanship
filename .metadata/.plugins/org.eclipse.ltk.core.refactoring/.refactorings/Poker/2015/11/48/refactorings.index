@@ -7,3 +7,5 @@
 1448365190076	Rename local variable 'cardString'
 1448365217085	Rename field 'cardString'
 1448365253177	Rename local variable 'cardString'
+1448531715509	Copy compilation unit
+1448532077266	Rename local variable 'rank'

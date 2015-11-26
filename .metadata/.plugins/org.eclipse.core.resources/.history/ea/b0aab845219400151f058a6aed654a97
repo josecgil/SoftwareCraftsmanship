@@ -1,0 +1,48 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class Hand {
+
+	private ArrayList<Card> cards=new ArrayList();
+	public Hand(String hand) {
+		String[] cardStrings=hand.split(" ");
+		for(String cardString: cardStrings) {
+			cards.add(new Card(cardString));
+		}
+	}
+
+	public String type() {
+		HashMap<String, Integer> cardCounter=new HashMap<String, Integer>();
+		for(Card card: cards) {
+			String rank=card.rank();
+			if (!cardCounter.containsKey(rank)) {
+				cardCounter.put(rank,1);
+			} else {
+				int counter=cardCounter.get(rank);
+				counter++;
+				cardCounter.put(rank, counter);
+			}
+		}		
+		
+		int maxCombo=maxCombo(cardCounter);
+		switch(maxCombo) {
+			case 4:
+				return "Four of a kind";
+			case 3:
+				return "Three of a kind";
+		}		
+		return "One pair";
+	}
+
+	private int maxCombo(HashMap<String, Integer> cardCounter) {
+		int maxCombo=1;
+		for(String rank: cardCounter.keySet()) {
+			int counter=cardCounter.get(rank);
+			if (counter>maxCombo) {
+				maxCombo=counter;
+			}
+		}
+		return maxCombo;
+	}
+
+}

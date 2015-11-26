@@ -12,29 +12,24 @@ public class Hand {
 	}
 
 	public String type() {
-		HashMap<String, Integer> cardCounter=new HashMap<String, Integer>();
-		for(Card card: cards) {
-			String rank=card.rank();
-			if (!cardCounter.containsKey(rank)) {
-				cardCounter.put(rank,1);
-			} else {
-				int counter=cardCounter.get(rank);
-				counter++;
-				cardCounter.put(rank, counter);
-			}
+		
+		SuitCounter suitCounter=new SuitCounter(cards);
+		int maxSuits=suitCounter.max();
+		if (maxSuits==5) {
+			return "Flush";
 		}
-		if (hasAFour(cardCounter)) {
-			return "Four of a kind";
-		}
-		return "Three of a kind";
+		
+		
+		ComboCounter comboCounter=new ComboCounter(cards);
+		int maxCombo=comboCounter.max();
+		switch(maxCombo) {
+			case 4:
+				return "Four of a kind";
+			case 3:
+				return "Three of a kind";
+		}		
+		return "One pair";
 	}
 
-	private boolean hasAFour(HashMap<String, Integer> cardCounter) {
-		for(String rank: cardCounter.keySet()) {
-			int counter=cardCounter.get(rank);
-			if (counter==4) return true;
-		}
-		return false;
-	}
-
+	
 }

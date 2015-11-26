@@ -29,5 +29,19 @@ public class PokerTest {
 		assertEquals("Three of a kind", hand.type());
 	}
 
+	@Test
+	public void IsOnePair() {
+		Hand hand=new Hand("3♣ 3♦ 4♠ 7♥ 9♥");
+		assertEquals("One pair", hand.type());
+	}
+
+	@Test
+	public void IsFlush() {
+		Hand hand=new Hand("2♦ 3♦ 4♦ 7♦ 9♦");
+		assertEquals("Flush", hand.type());
+	}
+
+	
+	
 	
 }
