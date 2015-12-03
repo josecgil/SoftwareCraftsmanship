@@ -1,44 +1,50 @@
 import static org.junit.Assert.*;
 
-import org.junit.Test;
+import org.junit.*;
 
 public class PokerTest {
-
+	private Hand hand;
+	
+	@Before
+	public void setupHand() {
+		hand=new Hand();
+	}
+	
+	@Test(expected=InvalidHandException.class)
+	public void ThrowsErrorIfThereAre4Cards() throws InvalidHandException {
+		hand.type("1♦ 1♠ 1♥ 10♥");
+	}
+	
+	
 	@Test
-	public void IsFourOfAKindWithOnes() {
-		Hand hand=new Hand("1♣ 1♦ 1♠ 1♥ 10♥");
-		assertEquals("Four of a kind", hand.type());
+	public void IsFourOfAKindWithOnes() throws InvalidHandException {
+		assertEquals("Four of a kind", hand.type("1♣ 1♦ 1♠ 1♥ 10♥"));
 	}
 
 	@Test
-	public void IsFourOfAKindWithTwos() {
-		Hand hand=new Hand("2♣ 2♦ 2♠ 2♥ 10♥");
-		assertEquals("Four of a kind", hand.type());
+	public void IsFourOfAKindWithTwos() throws InvalidHandException {
+		assertEquals("Four of a kind", hand.type("2♣ 2♦ 2♠ 2♥ 10♥"));
 	}
 	
 	@Test
-	public void IsThreeOfAKindWithFives() {
-		Hand hand=new Hand("5♣ 5♦ 5♠ 9♥ 10♥");
-		assertEquals("Three of a kind", hand.type());
+	public void IsThreeOfAKindWithFives() throws InvalidHandException {
+		assertEquals("Three of a kind", hand.type("5♣ 5♦ 5♠ 9♥ 10♥"));
 	}
 
 	
 	@Test
-	public void IsThreeOfAKindWithOnlyNumbers() {
-		Hand hand=new Hand("4♣ 4♦ 4♠ 9♦ 10♥");
-		assertEquals("Three of a kind", hand.type());
+	public void IsThreeOfAKindWithOnlyNumbers() throws InvalidHandException {
+		assertEquals("Three of a kind", hand.type("4♣ 4♦ 4♠ 9♦ 10♥"));
 	}
 
 	@Test
-	public void IsOnePair() {
-		Hand hand=new Hand("3♣ 3♦ 4♠ 7♥ 9♥");
-		assertEquals("One pair", hand.type());
+	public void IsOnePair() throws InvalidHandException {
+		assertEquals("One pair", hand.type("3♣ 3♦ 4♠ 7♥ 9♥"));
 	}
 
 	@Test
-	public void IsFlush() {
-		Hand hand=new Hand("2♦ 3♦ 4♦ 7♦ 9♦");
-		assertEquals("Flush", hand.type());
+	public void IsFlush() throws InvalidHandException {
+		assertEquals("Flush", hand.type("2♦ 3♦ 4♦ 7♦ 9♦"));
 	}
 
 	

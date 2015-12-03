@@ -1,0 +1,4 @@
+
+public class InvalidHandException extends Exception {
+
+}

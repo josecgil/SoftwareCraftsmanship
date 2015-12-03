@@ -4,14 +4,18 @@ import java.util.HashMap;
 public class Hand {
 
 	private ArrayList<Card> cards=new ArrayList();
-	public Hand(String hand) {
+	public Hand() {
+	}
+
+	public String type(String hand) throws InvalidHandException {
 		String[] cardStrings=hand.split(" ");
+		if (cardStrings.length==4) {
+			throw new InvalidHandException("A Hand is invalid if its not 5 cards");
+		}
+		
 		for(String cardString: cardStrings) {
 			cards.add(new Card(cardString));
 		}
-	}
-
-	public String type() {
 		
 		SuitCounter suitCounter=new SuitCounter(cards);
 		int maxSuits=suitCounter.max();
