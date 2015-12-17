@@ -1,8 +1,0 @@
-
-public class Poker {
-
-	public String hand(String string) {
-		return null;
-	}
-
-}

@@ -1,8 +1,0 @@
-
-public class Hand {
-
-	public String type(String string) {
-		return "Four of a kind";
-	}
-
-}
