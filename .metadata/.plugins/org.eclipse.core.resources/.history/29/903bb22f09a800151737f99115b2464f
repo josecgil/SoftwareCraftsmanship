@@ -1,0 +1,23 @@
+import cucumber.api.PendingException;
+import cucumber.api.java8.En;
+
+public class DepositStepDefinitions implements En {
+	
+	
+	public DepositStepDefinitions() {
+		Given("^a User has no money in their account$", () -> {
+			User user = new User();
+	        Account account = new Account();
+	        user.setAccount(account);
+        });
+		
+		When("^(\\d+)€ is deposited in to the account$", (Integer amount) -> {
+	        throw new PendingException();
+        });
+
+		Then("^the balance should be (\\d+)€$", (Integer balance) -> {
+	        throw new PendingException();
+        });
+
+	}
+}

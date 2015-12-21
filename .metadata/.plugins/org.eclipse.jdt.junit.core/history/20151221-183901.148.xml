@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunTests" project="Cucumber-jvm" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="RunTests" time="0.055">
+    <testsuite name="Feature: Depositing money in to a User account" time="0.055">
+      <testsuite name="Scenario: Depositing money in to User's account should add money to the User's current balance" time="0.055">
+        <testcase name="Given a User has no money in their account" classname="Scenario: Depositing money in to User's account should add money to the User's current balance" time="0.007"/>
+        <testcase name="When 100€ is deposited in to the account" classname="Scenario: Depositing money in to User's account should add money to the User's current balance" time="0.041"/>
+        <testcase name="Then the balance should be 100€" classname="Scenario: Depositing money in to User's account should add money to the User's current balance" time="0.007"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunTests" project="Cucumber-jvm" tests="6" started="6" failures="2" errors="0" ignored="0">
+  <testsuite name="RunTests" time="0.043">
+    <testsuite name="Feature: Depositing money in to a User account" time="0.043">
+      <testsuite name="Scenario: Depositing money in to an empty User's account should add money to the User's current balance" time="0.009">
+        <testcase name="Given a User has no money in their account" classname="Scenario: Depositing money in to an empty User's account should add money to the User's current balance" time="0.005"/>
+        <testcase name="When 100€ is deposited in to the account" classname="Scenario: Depositing money in to an empty User's account should add money to the User's current balance" time="0.003"/>
+        <testcase name="Then the balance should be 100€" classname="Scenario: Depositing money in to an empty User's account should add money to the User's current balance" time="0.001"/>
+      </testsuite>
+      <testsuite name="Scenario: Depositing money in to User's account should add money to the User's current balance" time="0.02" incomplete="true">
+        <failure>java.lang.AssertionError: expected:&lt;100&gt; but was:&lt;200&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at DepositStepDefinitions.lambda$3(DepositStepDefinitions.java:24)
+	at ✽.Then the balance should be 100€(deposit.feature:11)
+
+</failure>
+        <testcase name="Given a User has 100€ in their account" classname="Scenario: Depositing money in to User's account should add money to the User's current balance" time="0.012"/>
+        <testcase name="When 100€ is deposited in to the account" classname="Scenario: Depositing money in to User's account should add money to the User's current balance" time="0.003"/>
+        <testcase name="Then the balance should be 100€" classname="Scenario: Depositing money in to User's account should add money to the User's current balance" time="0.005">
+          <failure>java.lang.AssertionError: expected:&lt;100&gt; but was:&lt;200&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at DepositStepDefinitions.lambda$3(DepositStepDefinitions.java:24)
+	at ✽.Then the balance should be 100€(deposit.feature:11)
+
+</failure>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
