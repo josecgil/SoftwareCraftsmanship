@@ -1,1 +1,6 @@
 1450656399085	Delete element
+1450696820276	Extract local variable 'sell_In'
+1450696841348	Extract local variable 'DefaultQuality'
+1450696963002	Rename local variable 'sell_In'
+1450697771299	Rename local variable 'sellIn'
+1450697982870	Rename local variable 'negativesSellIn'

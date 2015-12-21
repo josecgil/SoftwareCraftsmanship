@@ -2593,3 +2593,498 @@ Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/ja
 
 !ENTRY org.infinitest.eclipse 1 0 2015-12-21 01:07:02.760
 !MESSAGE Update complete. Status FAILING
+!SESSION 2015-12-21 09:22:03.272 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/user/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/user/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-21 09:22:51.524
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 09:24:42.217
+!MESSAGE Beans loaded: [org.springframework.context.annotation.internalConfigurationAnnotationProcessor, org.springframework.context.annotation.internalAutowiredAnnotationProcessor, org.springframework.context.annotation.internalRequiredAnnotationProcessor, org.springframework.context.annotation.internalCommonAnnotationProcessor, infinitestConfig, org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor, resultCollectorBean, coreLifecycleObserver, classFileChangeProcessor, cleanEventProcessor, coreUpdateNotifier, saveDetector, failureMediator, infinitestActivationController, markerClearingRunnable, markerClearingObserver, markerPlacer, problemMarkerRegistry, resourceLookupAdapter, slowMarkerRegistry, preferenceChangeHandler, slowTestObserver, swtEventQueue, testResultAggregator, visualStatusPresenter, coreFactory, eclipseWorkspace, infinitestCoreRegistry, javaProjectSet, workspaceResourceFinder, workspace, sourceContainer]
+
+!ENTRY org.eclipse.ui 2 2 2015-12-21 09:24:51.008
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.runtime.ui, page: org.jboss.tools.runtime.preferences.RuntimePreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2015-12-21 09:24:51.040
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.usage, page: org.jboss.tools.usage.analytics.preferences.UsageAnalyticsPreferencePage)
+!SESSION 2015-12-21 10:25:35.429 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/user/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data /Users/user/Desktop/BTS/SoftwareCraftsmanship -product org.eclipse.epp.package.jee.product -keyring /Users/user/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-21 10:25:48.440
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 10:25:57.873
+!MESSAGE Beans loaded: [org.springframework.context.annotation.internalConfigurationAnnotationProcessor, org.springframework.context.annotation.internalAutowiredAnnotationProcessor, org.springframework.context.annotation.internalRequiredAnnotationProcessor, org.springframework.context.annotation.internalCommonAnnotationProcessor, infinitestConfig, org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor, resultCollectorBean, coreLifecycleObserver, classFileChangeProcessor, cleanEventProcessor, coreUpdateNotifier, saveDetector, failureMediator, infinitestActivationController, markerClearingRunnable, markerClearingObserver, markerPlacer, problemMarkerRegistry, resourceLookupAdapter, slowMarkerRegistry, preferenceChangeHandler, slowTestObserver, swtEventQueue, testResultAggregator, visualStatusPresenter, coreFactory, eclipseWorkspace, infinitestCoreRegistry, javaProjectSet, workspaceResourceFinder, workspace, sourceContainer]
+
+!ENTRY org.eclipse.ui 2 2 2015-12-21 10:26:00.650
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.runtime.ui, page: org.jboss.tools.runtime.preferences.RuntimePreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2015-12-21 10:26:00.654
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.usage, page: org.jboss.tools.usage.analytics.preferences.UsageAnalyticsPreferencePage)
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 11:02:17.777
+!MESSAGE Filter file /Users/user/Desktop/BTS/SoftwareCraftsmanship/DressMeForTheWeekTests/infinitest.filters does not exist.
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 11:02:17.805
+!MESSAGE Reloading core DressMeForTheWeekTests
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 11:02:17.842
+!MESSAGE Added core DressMeForTheWeekTests with classpath /Users/user/Desktop/BTS/SoftwareCraftsmanship/DressMeForTheWeekTests/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1938099566.jar
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 11:02:17.862
+!MESSAGE DressMeForTheWeekTests Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/DressMeForTheWeekTests/bin/DressMeForTheWeek.class, /Users/user/Desktop/BTS/SoftwareCraftsmanship/DressMeForTheWeekTests/bin/MockProductRepository.class, /Users/user/Desktop/BTS/SoftwareCraftsmanship/DressMeForTheWeekTests/bin/ProductRepository.class, /Users/user/Desktop/BTS/SoftwareCraftsmanship/DressMeForTheWeekTests/bin/DressMeForTheWeekTest.class, /Users/user/Desktop/BTS/SoftwareCraftsmanship/DressMeForTheWeekTests/bin/Product.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 11:02:18.067
+!MESSAGE DressMeForTheWeekTests Running tests: [DressMeForTheWeekTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 11:02:18.138
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/DressMeForTheWeekTests
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_23154=1, APP_ICON_22626=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/DressMeForTheWeekTests/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1938099566.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, APP_ICON_23154=../Resources/Eclipse.icns, SSH_AUTH_SOCK=/tmp/launch-aQaHM3/Listeners, JAVA_STARTED_ON_FIRST_THREAD_22626=1, DISPLAY=/tmp/launch-zKQiX4/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_22642=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, APP_ICON_22642=../Resources/Eclipse.icns, Apple_PubSub_Socket_Render=/tmp/launch-NF8353/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_22567=../Resources/Eclipse.icns, JAVA_STARTED_ON_FIRST_THREAD_22567=1, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 65113]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 11:02:18.880
+!MESSAGE Filter file /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/infinitest.filters does not exist.
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 11:02:18.881
+!MESSAGE Reloading core GildedRoseKata
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 11:02:19.132
+!MESSAGE Added core GildedRoseKata with classpath /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1938099566.jar
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 11:02:19.148
+!MESSAGE GildedRoseKata Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin/com/gildedrose/GildedRoseTest.class, /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin/com/gildedrose/Item.class, /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin/com/gildedrose/GildedRose.class, /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin/com/gildedrose/TexttestFixture.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 11:02:19.254
+!MESSAGE GildedRoseKata Running tests: [com.gildedrose.GildedRoseTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 11:02:19.255
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_23154=1, APP_ICON_22626=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1938099566.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, APP_ICON_23154=../Resources/Eclipse.icns, SSH_AUTH_SOCK=/tmp/launch-aQaHM3/Listeners, JAVA_STARTED_ON_FIRST_THREAD_22626=1, DISPLAY=/tmp/launch-zKQiX4/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_22642=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, APP_ICON_22642=../Resources/Eclipse.icns, Apple_PubSub_Socket_Render=/tmp/launch-NF8353/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_22567=../Resources/Eclipse.icns, JAVA_STARTED_ON_FIRST_THREAD_22567=1, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 65115]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 11:02:20.565
+!MESSAGE Update complete. Status FAILING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 11:02:20.569
+!MESSAGE DressMeForTheWeekTests Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/DressMeForTheWeekTests/bin/DressMeForTheWeek.class, /Users/user/Desktop/BTS/SoftwareCraftsmanship/DressMeForTheWeekTests/bin/MockProductRepository.class, /Users/user/Desktop/BTS/SoftwareCraftsmanship/DressMeForTheWeekTests/bin/ProductRepository.class, /Users/user/Desktop/BTS/SoftwareCraftsmanship/DressMeForTheWeekTests/bin/DressMeForTheWeekTest.class, /Users/user/Desktop/BTS/SoftwareCraftsmanship/DressMeForTheWeekTests/bin/Product.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 11:02:20.571
+!MESSAGE DressMeForTheWeekTests Running tests: [DressMeForTheWeekTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 11:02:20.572
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/DressMeForTheWeekTests
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_23154=1, APP_ICON_22626=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/DressMeForTheWeekTests/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1938099566.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, APP_ICON_23154=../Resources/Eclipse.icns, SSH_AUTH_SOCK=/tmp/launch-aQaHM3/Listeners, JAVA_STARTED_ON_FIRST_THREAD_22626=1, DISPLAY=/tmp/launch-zKQiX4/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_22642=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, APP_ICON_22642=../Resources/Eclipse.icns, Apple_PubSub_Socket_Render=/tmp/launch-NF8353/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_22567=../Resources/Eclipse.icns, JAVA_STARTED_ON_FIRST_THREAD_22567=1, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 65118]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 11:02:22.187
+!MESSAGE Update complete. Status FAILING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 11:07:49.467
+!MESSAGE GildedRoseKata Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin/com/gildedrose/GildedRose.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 11:07:49.473
+!MESSAGE GildedRoseKata Running tests: [com.gildedrose.GildedRoseTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 11:07:49.474
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_23154=1, APP_ICON_22626=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1938099566.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, APP_ICON_23154=../Resources/Eclipse.icns, SSH_AUTH_SOCK=/tmp/launch-aQaHM3/Listeners, JAVA_STARTED_ON_FIRST_THREAD_22626=1, DISPLAY=/tmp/launch-zKQiX4/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_22642=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, APP_ICON_22642=../Resources/Eclipse.icns, Apple_PubSub_Socket_Render=/tmp/launch-NF8353/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_22567=../Resources/Eclipse.icns, JAVA_STARTED_ON_FIRST_THREAD_22567=1, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 65123]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 11:07:50.081
+!MESSAGE Update complete. Status FAILING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 11:08:09.968
+!MESSAGE GildedRoseKata Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin/com/gildedrose/GildedRose.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 11:08:09.970
+!MESSAGE GildedRoseKata Running tests: [com.gildedrose.GildedRoseTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 11:08:09.970
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_23154=1, APP_ICON_22626=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1938099566.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, APP_ICON_23154=../Resources/Eclipse.icns, SSH_AUTH_SOCK=/tmp/launch-aQaHM3/Listeners, JAVA_STARTED_ON_FIRST_THREAD_22626=1, DISPLAY=/tmp/launch-zKQiX4/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_22642=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, APP_ICON_22642=../Resources/Eclipse.icns, Apple_PubSub_Socket_Render=/tmp/launch-NF8353/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_22567=../Resources/Eclipse.icns, JAVA_STARTED_ON_FIRST_THREAD_22567=1, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 65125]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 11:08:11.029
+!MESSAGE Update complete. Status FAILING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:15:40.513
+!MESSAGE GildedRoseKata Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin/com/gildedrose/GildedRoseTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:15:40.548
+!MESSAGE GildedRoseKata Running tests: [com.gildedrose.GildedRoseTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:15:40.549
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_23154=1, APP_ICON_22626=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1938099566.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, APP_ICON_23154=../Resources/Eclipse.icns, SSH_AUTH_SOCK=/tmp/launch-aQaHM3/Listeners, JAVA_STARTED_ON_FIRST_THREAD_22626=1, DISPLAY=/tmp/launch-zKQiX4/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_22642=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, APP_ICON_22642=../Resources/Eclipse.icns, Apple_PubSub_Socket_Render=/tmp/launch-NF8353/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_22567=../Resources/Eclipse.icns, JAVA_STARTED_ON_FIRST_THREAD_22567=1, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 65310]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:15:41.147
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:16:02.876
+!MESSAGE GildedRoseKata Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin/com/gildedrose/GildedRoseTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:16:02.878
+!MESSAGE GildedRoseKata Running tests: [com.gildedrose.GildedRoseTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:16:02.879
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_23154=1, APP_ICON_22626=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1938099566.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, APP_ICON_23154=../Resources/Eclipse.icns, SSH_AUTH_SOCK=/tmp/launch-aQaHM3/Listeners, JAVA_STARTED_ON_FIRST_THREAD_22626=1, DISPLAY=/tmp/launch-zKQiX4/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_22642=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, APP_ICON_22642=../Resources/Eclipse.icns, Apple_PubSub_Socket_Render=/tmp/launch-NF8353/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_22567=../Resources/Eclipse.icns, JAVA_STARTED_ON_FIRST_THREAD_22567=1, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 65312]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:16:03.414
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:22:46.433
+!MESSAGE GildedRoseKata Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin/com/gildedrose/GildedRoseTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:22:46.434
+!MESSAGE GildedRoseKata Running tests: [com.gildedrose.GildedRoseTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:22:46.435
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_23154=1, APP_ICON_22626=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1938099566.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, APP_ICON_23154=../Resources/Eclipse.icns, SSH_AUTH_SOCK=/tmp/launch-aQaHM3/Listeners, JAVA_STARTED_ON_FIRST_THREAD_22626=1, DISPLAY=/tmp/launch-zKQiX4/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_22642=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, APP_ICON_22642=../Resources/Eclipse.icns, Apple_PubSub_Socket_Render=/tmp/launch-NF8353/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_22567=../Resources/Eclipse.icns, JAVA_STARTED_ON_FIRST_THREAD_22567=1, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 65325]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:22:47.012
+!MESSAGE Update complete. Status FAILING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:23:01.238
+!MESSAGE GildedRoseKata Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin/com/gildedrose/GildedRoseTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:23:01.240
+!MESSAGE GildedRoseKata Running tests: [com.gildedrose.GildedRoseTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:23:01.240
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_23154=1, APP_ICON_22626=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1938099566.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, APP_ICON_23154=../Resources/Eclipse.icns, SSH_AUTH_SOCK=/tmp/launch-aQaHM3/Listeners, JAVA_STARTED_ON_FIRST_THREAD_22626=1, DISPLAY=/tmp/launch-zKQiX4/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_22642=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, APP_ICON_22642=../Resources/Eclipse.icns, Apple_PubSub_Socket_Render=/tmp/launch-NF8353/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_22567=../Resources/Eclipse.icns, JAVA_STARTED_ON_FIRST_THREAD_22567=1, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 65327]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:23:02.128
+!MESSAGE Update complete. Status FAILING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:23:10.192
+!MESSAGE GildedRoseKata Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin/com/gildedrose/GildedRoseTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:23:10.194
+!MESSAGE GildedRoseKata Running tests: [com.gildedrose.GildedRoseTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:23:10.195
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_23154=1, APP_ICON_22626=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1938099566.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, APP_ICON_23154=../Resources/Eclipse.icns, SSH_AUTH_SOCK=/tmp/launch-aQaHM3/Listeners, JAVA_STARTED_ON_FIRST_THREAD_22626=1, DISPLAY=/tmp/launch-zKQiX4/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_22642=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, APP_ICON_22642=../Resources/Eclipse.icns, Apple_PubSub_Socket_Render=/tmp/launch-NF8353/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_22567=../Resources/Eclipse.icns, JAVA_STARTED_ON_FIRST_THREAD_22567=1, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 65329]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:23:10.788
+!MESSAGE Update complete. Status FAILING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:23:47.010
+!MESSAGE GildedRoseKata Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin/com/gildedrose/GildedRoseTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:23:47.042
+!MESSAGE GildedRoseKata Running tests: [com.gildedrose.GildedRoseTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:23:47.043
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_23154=1, APP_ICON_22626=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1938099566.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, APP_ICON_23154=../Resources/Eclipse.icns, SSH_AUTH_SOCK=/tmp/launch-aQaHM3/Listeners, JAVA_STARTED_ON_FIRST_THREAD_22626=1, DISPLAY=/tmp/launch-zKQiX4/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_22642=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, APP_ICON_22642=../Resources/Eclipse.icns, Apple_PubSub_Socket_Render=/tmp/launch-NF8353/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_22567=../Resources/Eclipse.icns, JAVA_STARTED_ON_FIRST_THREAD_22567=1, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 65342]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:23:47.781
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:24:13.338
+!MESSAGE GildedRoseKata Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin/com/gildedrose/GildedRoseTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:24:13.339
+!MESSAGE GildedRoseKata Running tests: [com.gildedrose.GildedRoseTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:24:13.348
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_23154=1, APP_ICON_22626=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1938099566.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, APP_ICON_23154=../Resources/Eclipse.icns, SSH_AUTH_SOCK=/tmp/launch-aQaHM3/Listeners, JAVA_STARTED_ON_FIRST_THREAD_22626=1, DISPLAY=/tmp/launch-zKQiX4/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_22642=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, APP_ICON_22642=../Resources/Eclipse.icns, Apple_PubSub_Socket_Render=/tmp/launch-NF8353/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_22567=../Resources/Eclipse.icns, JAVA_STARTED_ON_FIRST_THREAD_22567=1, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 65344]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:24:13.925
+!MESSAGE Update complete. Status FAILING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:24:45.321
+!MESSAGE GildedRoseKata Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin/com/gildedrose/GildedRoseTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:24:45.323
+!MESSAGE GildedRoseKata Running tests: [com.gildedrose.GildedRoseTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:24:45.323
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_23154=1, APP_ICON_22626=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1938099566.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, APP_ICON_23154=../Resources/Eclipse.icns, SSH_AUTH_SOCK=/tmp/launch-aQaHM3/Listeners, JAVA_STARTED_ON_FIRST_THREAD_22626=1, DISPLAY=/tmp/launch-zKQiX4/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_22642=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, APP_ICON_22642=../Resources/Eclipse.icns, Apple_PubSub_Socket_Render=/tmp/launch-NF8353/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_22567=../Resources/Eclipse.icns, JAVA_STARTED_ON_FIRST_THREAD_22567=1, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 65346]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:24:45.934
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:26:33.962
+!MESSAGE GildedRoseKata Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin/com/gildedrose/GildedRoseTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:26:33.964
+!MESSAGE GildedRoseKata Running tests: [com.gildedrose.GildedRoseTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:26:33.966
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_23154=1, APP_ICON_22626=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1938099566.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, APP_ICON_23154=../Resources/Eclipse.icns, SSH_AUTH_SOCK=/tmp/launch-aQaHM3/Listeners, JAVA_STARTED_ON_FIRST_THREAD_22626=1, DISPLAY=/tmp/launch-zKQiX4/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_22642=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, APP_ICON_22642=../Resources/Eclipse.icns, Apple_PubSub_Socket_Render=/tmp/launch-NF8353/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_22567=../Resources/Eclipse.icns, JAVA_STARTED_ON_FIRST_THREAD_22567=1, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 65353]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:26:34.549
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:27:03.455
+!MESSAGE GildedRoseKata Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin/com/gildedrose/GildedRoseTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:27:18.386
+!MESSAGE GildedRoseKata Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin/com/gildedrose/GildedRoseTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:27:18.387
+!MESSAGE GildedRoseKata Running tests: [com.gildedrose.GildedRoseTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:27:18.388
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_23154=1, APP_ICON_22626=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1938099566.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, APP_ICON_23154=../Resources/Eclipse.icns, SSH_AUTH_SOCK=/tmp/launch-aQaHM3/Listeners, JAVA_STARTED_ON_FIRST_THREAD_22626=1, DISPLAY=/tmp/launch-zKQiX4/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_22642=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, APP_ICON_22642=../Resources/Eclipse.icns, Apple_PubSub_Socket_Render=/tmp/launch-NF8353/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_22567=../Resources/Eclipse.icns, JAVA_STARTED_ON_FIRST_THREAD_22567=1, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 65362]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:27:18.926
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:27:45.108
+!MESSAGE GildedRoseKata Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin/com/gildedrose/GildedRoseTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:27:45.109
+!MESSAGE GildedRoseKata Running tests: [com.gildedrose.GildedRoseTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:27:45.110
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_23154=1, APP_ICON_22626=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1938099566.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, APP_ICON_23154=../Resources/Eclipse.icns, SSH_AUTH_SOCK=/tmp/launch-aQaHM3/Listeners, JAVA_STARTED_ON_FIRST_THREAD_22626=1, DISPLAY=/tmp/launch-zKQiX4/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_22642=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, APP_ICON_22642=../Resources/Eclipse.icns, Apple_PubSub_Socket_Render=/tmp/launch-NF8353/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_22567=../Resources/Eclipse.icns, JAVA_STARTED_ON_FIRST_THREAD_22567=1, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 65369]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:27:45.675
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:28:44.329
+!MESSAGE GildedRoseKata Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin/com/gildedrose/GildedRoseTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:28:44.331
+!MESSAGE GildedRoseKata Running tests: [com.gildedrose.GildedRoseTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:28:44.332
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_23154=1, APP_ICON_22626=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1938099566.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, APP_ICON_23154=../Resources/Eclipse.icns, SSH_AUTH_SOCK=/tmp/launch-aQaHM3/Listeners, JAVA_STARTED_ON_FIRST_THREAD_22626=1, DISPLAY=/tmp/launch-zKQiX4/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_22642=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, APP_ICON_22642=../Resources/Eclipse.icns, Apple_PubSub_Socket_Render=/tmp/launch-NF8353/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_22567=../Resources/Eclipse.icns, JAVA_STARTED_ON_FIRST_THREAD_22567=1, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 65375]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:28:44.901
+!MESSAGE Update complete. Status FAILING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:28:48.917
+!MESSAGE GildedRoseKata Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin/com/gildedrose/GildedRoseTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:28:48.919
+!MESSAGE GildedRoseKata Running tests: [com.gildedrose.GildedRoseTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:28:48.920
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_23154=1, APP_ICON_22626=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1938099566.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, APP_ICON_23154=../Resources/Eclipse.icns, SSH_AUTH_SOCK=/tmp/launch-aQaHM3/Listeners, JAVA_STARTED_ON_FIRST_THREAD_22626=1, DISPLAY=/tmp/launch-zKQiX4/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_22642=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, APP_ICON_22642=../Resources/Eclipse.icns, Apple_PubSub_Socket_Render=/tmp/launch-NF8353/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_22567=../Resources/Eclipse.icns, JAVA_STARTED_ON_FIRST_THREAD_22567=1, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 65377]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:28:49.446
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:40:07.622
+!MESSAGE GildedRoseKata Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin/com/gildedrose/GildedRoseTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:40:07.623
+!MESSAGE GildedRoseKata Running tests: [com.gildedrose.GildedRoseTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:40:07.624
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_23154=1, APP_ICON_22626=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1938099566.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, APP_ICON_23154=../Resources/Eclipse.icns, SSH_AUTH_SOCK=/tmp/launch-aQaHM3/Listeners, JAVA_STARTED_ON_FIRST_THREAD_22626=1, DISPLAY=/tmp/launch-zKQiX4/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_22642=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, APP_ICON_22642=../Resources/Eclipse.icns, Apple_PubSub_Socket_Render=/tmp/launch-NF8353/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_22567=../Resources/Eclipse.icns, JAVA_STARTED_ON_FIRST_THREAD_22567=1, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 65391]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:40:08.194
+!MESSAGE Update complete. Status FAILING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:40:36.929
+!MESSAGE GildedRoseKata Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin/com/gildedrose/GildedRoseTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:40:36.931
+!MESSAGE GildedRoseKata Running tests: [com.gildedrose.GildedRoseTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:40:36.933
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_23154=1, APP_ICON_22626=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1938099566.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, APP_ICON_23154=../Resources/Eclipse.icns, SSH_AUTH_SOCK=/tmp/launch-aQaHM3/Listeners, JAVA_STARTED_ON_FIRST_THREAD_22626=1, DISPLAY=/tmp/launch-zKQiX4/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_22642=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, APP_ICON_22642=../Resources/Eclipse.icns, Apple_PubSub_Socket_Render=/tmp/launch-NF8353/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_22567=../Resources/Eclipse.icns, JAVA_STARTED_ON_FIRST_THREAD_22567=1, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 65393]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:40:37.568
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:43:58.782
+!MESSAGE GildedRoseKata Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin/com/gildedrose/GildedRoseTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:43:58.810
+!MESSAGE GildedRoseKata Running tests: [com.gildedrose.GildedRoseTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:43:58.811
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_23154=1, APP_ICON_22626=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1938099566.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, APP_ICON_23154=../Resources/Eclipse.icns, SSH_AUTH_SOCK=/tmp/launch-aQaHM3/Listeners, JAVA_STARTED_ON_FIRST_THREAD_22626=1, DISPLAY=/tmp/launch-zKQiX4/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_22642=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, APP_ICON_22642=../Resources/Eclipse.icns, Apple_PubSub_Socket_Render=/tmp/launch-NF8353/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_22567=../Resources/Eclipse.icns, JAVA_STARTED_ON_FIRST_THREAD_22567=1, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 65402]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:44:00.021
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:46:15.035
+!MESSAGE GildedRoseKata Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin/com/gildedrose/GildedRoseTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:46:15.114
+!MESSAGE GildedRoseKata Running tests: [com.gildedrose.GildedRoseTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:46:15.114
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_23154=1, APP_ICON_22626=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1938099566.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, APP_ICON_23154=../Resources/Eclipse.icns, SSH_AUTH_SOCK=/tmp/launch-aQaHM3/Listeners, JAVA_STARTED_ON_FIRST_THREAD_22626=1, DISPLAY=/tmp/launch-zKQiX4/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_22642=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, APP_ICON_22642=../Resources/Eclipse.icns, Apple_PubSub_Socket_Render=/tmp/launch-NF8353/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_22567=../Resources/Eclipse.icns, JAVA_STARTED_ON_FIRST_THREAD_22567=1, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 65407]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:46:15.792
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:47:43.092
+!MESSAGE GildedRoseKata Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin/com/gildedrose/GildedRoseTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:47:43.093
+!MESSAGE GildedRoseKata Running tests: [com.gildedrose.GildedRoseTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:47:43.094
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_23154=1, APP_ICON_22626=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1938099566.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, APP_ICON_23154=../Resources/Eclipse.icns, SSH_AUTH_SOCK=/tmp/launch-aQaHM3/Listeners, JAVA_STARTED_ON_FIRST_THREAD_22626=1, DISPLAY=/tmp/launch-zKQiX4/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_22642=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, APP_ICON_22642=../Resources/Eclipse.icns, Apple_PubSub_Socket_Render=/tmp/launch-NF8353/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_22567=../Resources/Eclipse.icns, JAVA_STARTED_ON_FIRST_THREAD_22567=1, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 65414]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:47:43.744
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:50:50.353
+!MESSAGE GildedRoseKata Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin/com/gildedrose/GildedRoseTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:50:50.358
+!MESSAGE GildedRoseKata Running tests: [com.gildedrose.GildedRoseTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:50:50.359
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_23154=1, APP_ICON_22626=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1938099566.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, APP_ICON_23154=../Resources/Eclipse.icns, SSH_AUTH_SOCK=/tmp/launch-aQaHM3/Listeners, JAVA_STARTED_ON_FIRST_THREAD_22626=1, DISPLAY=/tmp/launch-zKQiX4/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_22642=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, APP_ICON_22642=../Resources/Eclipse.icns, Apple_PubSub_Socket_Render=/tmp/launch-NF8353/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_22567=../Resources/Eclipse.icns, JAVA_STARTED_ON_FIRST_THREAD_22567=1, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 65458]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:50:50.990
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:54:53.364
+!MESSAGE GildedRoseKata Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin/com/gildedrose/GildedRose.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:54:53.365
+!MESSAGE GildedRoseKata Running tests: [com.gildedrose.GildedRoseTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:54:53.374
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_23154=1, APP_ICON_22626=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1938099566.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, APP_ICON_23154=../Resources/Eclipse.icns, SSH_AUTH_SOCK=/tmp/launch-aQaHM3/Listeners, JAVA_STARTED_ON_FIRST_THREAD_22626=1, DISPLAY=/tmp/launch-zKQiX4/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_22642=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, APP_ICON_22642=../Resources/Eclipse.icns, Apple_PubSub_Socket_Render=/tmp/launch-NF8353/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_22567=../Resources/Eclipse.icns, JAVA_STARTED_ON_FIRST_THREAD_22567=1, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 65477]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:54:53.960
+!MESSAGE Update complete. Status FAILING
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:55:01.216
+!MESSAGE GildedRoseKata Files changed: [/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin/com/gildedrose/GildedRose.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:55:01.217
+!MESSAGE GildedRoseKata Running tests: [com.gildedrose.GildedRoseTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:55:01.218
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata
+Environment: {PATH=/usr/bin:/bin:/usr/sbin:/sbin, SHELL=/bin/bash, JAVA_STARTED_ON_FIRST_THREAD_23154=1, APP_ICON_22626=../Resources/Eclipse.icns, USER=user, CLASSPATH=/Users/user/Desktop/BTS/SoftwareCraftsmanship/GildedRoseKata/bin:/Users/user/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/user/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/infinitest1938099566.jar, TMPDIR=/var/folders/h1/rb758g9d7939gy6mrpjsgddm0000gn/T/, APP_ICON_23154=../Resources/Eclipse.icns, SSH_AUTH_SOCK=/tmp/launch-aQaHM3/Listeners, JAVA_STARTED_ON_FIRST_THREAD_22626=1, DISPLAY=/tmp/launch-zKQiX4/org.macosforge.xquartz:0, JAVA_STARTED_ON_FIRST_THREAD_22642=1, __CF_USER_TEXT_ENCODING=0x1F5:0:8, APP_ICON_22642=../Resources/Eclipse.icns, Apple_PubSub_Socket_Render=/tmp/launch-NF8353/Render, __CHECKFIX1436934=1, LOGNAME=user, APP_ICON_22567=../Resources/Eclipse.icns, JAVA_STARTED_ON_FIRST_THREAD_22567=1, HOME=/Users/user}
+Command: [/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 65479]
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 12:55:01.774
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.eclipse.recommenders.rcp 2 15 2015-12-21 17:07:44.713
+!MESSAGE Failed to parse news feed
+!STACK 0
+java.net.UnknownHostException: www.codetrails.com: unknown error
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:907)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1302)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1255)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1171)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1105)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:102)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.getRSSFeed(CheckForProjectNewsJob.java:138)
+	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.doRun(CheckForProjectNewsJob.java:89)
+	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.run(CheckForProjectNewsJob.java:62)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 2 2 2015-12-21 17:32:59.966
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.mountainminds.eclemma.internal.core.launching.AgentServer
+!SESSION 2015-12-21 18:06:44.712 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/user/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/user/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-21 18:07:17.830
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.infinitest.eclipse 1 0 2015-12-21 18:07:34.790
+!MESSAGE Beans loaded: [org.springframework.context.annotation.internalConfigurationAnnotationProcessor, org.springframework.context.annotation.internalAutowiredAnnotationProcessor, org.springframework.context.annotation.internalRequiredAnnotationProcessor, org.springframework.context.annotation.internalCommonAnnotationProcessor, infinitestConfig, org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor, resultCollectorBean, coreLifecycleObserver, classFileChangeProcessor, cleanEventProcessor, coreUpdateNotifier, saveDetector, failureMediator, infinitestActivationController, markerClearingRunnable, markerClearingObserver, markerPlacer, problemMarkerRegistry, resourceLookupAdapter, slowMarkerRegistry, preferenceChangeHandler, slowTestObserver, swtEventQueue, testResultAggregator, visualStatusPresenter, coreFactory, eclipseWorkspace, infinitestCoreRegistry, javaProjectSet, workspaceResourceFinder, workspace, sourceContainer]
+
+!ENTRY org.eclipse.ui 2 2 2015-12-21 18:07:40.562
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.runtime.ui, page: org.jboss.tools.runtime.preferences.RuntimePreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2015-12-21 18:07:40.562
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.usage, page: org.jboss.tools.usage.analytics.preferences.UsageAnalyticsPreferencePage)
